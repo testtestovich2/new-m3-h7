@@ -1,0 +1,138 @@
+.banner{
+  padding-bottom: 50px;
+}
+
+.banner__box{
+  background-image: url("../img/bg-banner.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: 480px;
+  border-radius: 16px;
+  color: #fff;
+  padding: 145px 112px 40px 112px;
+}
+
+.banner__text{
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 130%;
+  margin-bottom: 120px;
+}
+
+.timer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.timer__title{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 130%;
+}
+
+.timer__number-text{
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 130%;
+}
+
+.number{
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 130%;
+}
+
+.banner__box-timer{
+  margin: 0 auto;
+}
+
+@media (max-width: 1060px) {
+  .banner__box{
+    padding: 80px 80px 36px 80px;
+  }
+
+  .banner__text{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+    margin-bottom: 63px;
+  }
+
+  .timer__number-text{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+  }
+
+  .number{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+  }
+}
+
+@media (max-width: 800px) {
+  .banner__box{
+    padding: 64px 80px 30px 80px;
+  }
+
+  .banner__text{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 130%;
+    margin-bottom: 82px;
+  }
+
+  .timer__title{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 130%;
+  }
+
+  .timer__number-text{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 130%;
+  }
+
+  .number{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 130%;
+  }
+}
+
+@media (max-width: 650px) {
+  .banner__box{
+    padding: 50px 29px 30px 29px;
+    min-height: 340px;
+  }
+
+  .banner__text{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 130%;
+    text-align: center;
+    margin-bottom: 189px;
+  }
+
+  .timer__title{
+    font-weight: 700;
+    font-size: 8px;
+    line-height: 130%;
+  }
+
+  .timer__number-text{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 130%;
+  }
+
+  .number{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+  }
+}
